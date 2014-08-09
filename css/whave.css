@@ -1,0 +1,25 @@
+header{
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #00CC70),
+	color-stop(1, #1BF592)
+);
+background-image: -o-linear-gradient(bottom, #00CC70 0%, #1BF592 100%);
+background-image: -moz-linear-gradient(bottom, #00CC70 0%, #1BF592 100%);
+background-image: -webkit-linear-gradient(bottom, #00CC70 0%, #1BF592 100%);
+background-image: -ms-linear-gradient(bottom, #00CC70 0%, #1BF592 100%);
+background-image: linear-gradient(to bottom, #00CC70 0%, #1BF592 100%);
+    min-height: 730px;
+
+color: #ffffff;
+
+}
+
+@font-face {
+  font-family: 'myfont';
+  src: url('css/HelveticaNeue-UltraLight.otf');
+}
+
+h1 { font-family: 'myfont', HelveticaNeue-UltraLight; }

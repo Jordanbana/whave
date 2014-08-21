@@ -17,9 +17,24 @@ color: #ffffff;
 
 }
 
+.save_feature{
+background-color:#f7f7f7;
+}
+
+.col-md-6{
+	float:none;
+	display: inline-block;
+	vertical-align:middle;
+	margin-right:-4px;
+}
+
 @font-face {
   font-family: 'myfont';
   src: url('css/HelveticaNeue-UltraLight.otf');
+	font-family: 'myfont1';
+	src: url('css/HelveticaNeue-Light.otf');
 }
 
 h1 { font-family: 'myfont', HelveticaNeue-UltraLight; }
+
+p { font-family: 'myfont1', HelveticaNeue-Light; }
